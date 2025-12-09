@@ -1,7 +1,7 @@
 import pandas as pd
 import openpyxl
 
-data = pd.read_csv('hydrostatics_FINAL.csv', usecols=['Draft(E)', 'DISP(E)', 'LCF', 'TPC', 'MTC'])
+data = pd.read_csv('hydrostatics_table1.csv', usecols=['Draft(E)', 'DISP', 'LCF', 'TPC', 'MTC'])
  
 
 

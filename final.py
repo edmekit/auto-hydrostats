@@ -1,7 +1,7 @@
 import pandas as pd
 
-disp = pd.read_csv("hydrostatics_cleaned.csv")
-mtc = pd.read_csv("hydrostatics_cleaned1.csv")
+disp = pd.read_csv("hydrostatics_table.csv")
+mtc = pd.read_csv("hydrostatics_table1.csv")
 
 merge = pd.merge(disp, mtc, on="Draft(E)", how="inner")
 
